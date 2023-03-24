@@ -1,24 +1,41 @@
 import React from "react";
-import '../navbar.css';
+import classes from "./Navbar.module.css";
+
 const Navbar = () => {
-   return (
-<nav className="nav">
-    <a href="#" className="brand"> HackBreeze</a>
-    <div className="navigation_menu">
-    <ul>
-        <li className="nav_item"><a href="#" className="nav_link">Practice</a></li>
-        <li className="nav_item"><a href="#" className="nav_link">Compete</a></li>
-        <li className="nav_item"><a href="#" className="nav_link">Learn</a></li>
-        <div className="vl">
-        <li className="nav_item"><a href="#" className="nav_link1">Contact us</a></li></div>
+  return (
+    <nav className={classes.nav}>
+      <a href="#" className={classes.brand}>
+        {" "}
+        HackBreeze
+      </a>
+      <div className={classes.navigation_menu}>
+        <ul>
+          <li className={classes.nav_item}>
+            <a href="#" className={classes.nav_link}>
+              Events
+            </a>
+          </li>
+          <li className={classes.nav_item}>
+            <a href="#" className={classes.nav_link}>
+              Compete
+            </a>
+          </li>
+          <li className={classes.nav_item}>
+            <a href="#" className={classes.nav_link}>
+              Friends
+            </a>
+          </li>
+          <div className={classes.vl}>
+            <li className={classes.nav_item}>
+              <a href="#" className={classes.nav_link1}>
+                Contact us
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
-    </ul>
-    </div>
-    
-</nav>
-
-
-   )
-  };
-  
-  export default Navbar;
+export default Navbar;
