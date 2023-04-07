@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Friends from '../components/Home/Friends'
 import UpcomingEvents from '../components/Home/UpcomingEvents'
 import Search from '../components/Home/Search'
@@ -49,7 +48,6 @@ const HomePage = () => {
         <LeaderBoard/>
     </div>
     </div>
-  
 </div>
 
 
