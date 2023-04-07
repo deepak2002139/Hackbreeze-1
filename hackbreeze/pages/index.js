@@ -4,9 +4,12 @@ import Friends from '../components/Home/Friends'
 import UpcomingEvents from '../components/Home/UpcomingEvents'
 import Search from '../components/Home/Search'
 import LeaderBoard from '../components/Home/LeaderBoard'
+import { DarkModeProvider } from './DarkModeContext'
+import DarkModeButton from './darkmodebutton'
 
 const HomePage = () => {
   return (
+    
     <div className='relative fixed inset-0 h-screen w-screen bg-white'>
     <div className='flex ml-[250px] mr-[216px] pt-[100px]'>
     <div className='font-poppins text-[80px] font-medium font-weight-500 '>
@@ -48,6 +51,8 @@ const HomePage = () => {
     </div>
   
 </div>
+
+
   )
 }
 
