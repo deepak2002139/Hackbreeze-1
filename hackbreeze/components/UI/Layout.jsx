@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import { DarkModeContext } from "../../pages/DarkModeContext";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 const Layout = ({ children }) => {
-
-  const {darkMode,setDarkMode} = useContext(DarkModeContext)
+  const { darkMode, setDarkMode } = useContext(DarkModeContext);
 
   return (
     <div className={darkMode ? `bg-slate-800 text-white` : null}>
