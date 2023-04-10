@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./Navbar.module.css";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <nav className={classes.nav}>
-      <a href="#" className={classes.brand}>
-        {" "}
+      <Link href="/" className={classes.brand}>
         HackBreeze
-      </a>
+      </Link>
       <div className={classes.navigation_menu}>
         <ul>
           <li className={classes.nav_item}>
