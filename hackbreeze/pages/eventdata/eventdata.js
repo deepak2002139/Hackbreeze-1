@@ -123,9 +123,9 @@ export default function Home() {
                 <div className="m-6">
                   <select
                     id="events"
-                    class="bg-gray-50 border border-gray-300 text-pink-900 text-sm rounded-lg  block  w-24 p-2  dark:bg-pink-700   dark:text-white"
+                    className="bg-gray-50 border border-gray-300 text-pink-900 text-sm rounded-lg  block  w-24 p-2  dark:bg-pink-700   dark:text-white"
                   >
-                    <option selected>Filter</option>
+                    <option value={"Filter"}>Filter</option>
                     <option value="US">web</option>
                     <option value="CA">dsa</option>
                     <option value="FR">cpp</option>
@@ -135,9 +135,9 @@ export default function Home() {
                 <div className="m-6 pl-24">
                   <select
                     id="events"
-                    class="bg-gray-50 border border-gray-300 text-pink-900 text-sm rounded-lg  block  w-24 p-2  dark:bg-pink-700   dark:text-white"
+                    className="bg-gray-50 border border-gray-300 text-pink-900 text-sm rounded-lg  block  w-24 p-2  dark:bg-pink-700   dark:text-white"
                   >
-                    <option selected>Sort</option>
+                    <option value={"sort"}>Sort</option>
                     <option value="US">web</option>
                     <option value="CA">dsa</option>
                     <option value="FR">cpp</option>

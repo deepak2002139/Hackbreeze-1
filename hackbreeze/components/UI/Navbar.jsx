@@ -10,26 +10,22 @@ const Navbar = () => {
       </Link>
       <div className={classes.navigation_menu}>
         <ul>
-          <li className={classes.nav_item}>
-            <a href="#" className={classes.nav_link}>
+          <div className={classes.nav_item}>
+            <Link href="/events" className={classes.nav_link}>
               Events
-            </a>
-          </li>
+            </Link>
+          </div>
+
           <li className={classes.nav_item}>
-            <a href="#" className={classes.nav_link}>
-              Compete
-            </a>
-          </li>
-          <li className={classes.nav_item}>
-            <a href="#" className={classes.nav_link}>
-              Friends
-            </a>
+            <Link href="/eventdata/eventdata" className={classes.nav_link}>
+              Event_1
+            </Link>
           </li>
           <div className={classes.vl}>
             <li className={classes.nav_item}>
-              <a href="#" className={classes.nav_link1}>
+              <Link href="/about" className={classes.nav_link1}>
                 Contact us
-              </a>
+              </Link>
             </li>
           </div>
         </ul>
