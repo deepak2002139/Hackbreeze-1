@@ -21,6 +21,11 @@ const Navbar = () => {
               Event_1
             </Link>
           </li>
+          <li className={classes.nav_item}>
+            <Link href="/team" className={classes.nav_link}>
+              Team_1
+            </Link>
+          </li>
           <div className={classes.vl}>
             <li className={classes.nav_item}>
               <Link href="/about" className={classes.nav_link1}>
